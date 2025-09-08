@@ -2,7 +2,48 @@
   position: sticky;
   top: 0px;
   border: 2px solid black;
-  background-color: lightgreen;
+  background-color: grey;
+}
+
+#Simplicissimuslogo{
+    cursor: pointer; 
+    border-radius: 50px;
+
+    animation: SimplicissimusLogoAnimation;
+    animation-duration: 5s;
+}
+
+#Hooglogo{
+    cursor: pointer; 
+    border-radius: 50px;
+
+    animation: HoogLogoAnimation;
+    animation-duration: 5s;
+    
+}
+
+@keyframes SimplicissimusLogoAnimation {
+    from{transform: translateX(-460%);}
+    to{transform: translateX(0%);}
+}
+
+@keyframes HoogLogoAnimation {
+    from{transform: translateX(460%);}
+    to{transform: translateX(0%);}
+}
+
+#FeaturedChannelDIV{
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+
+    animation: FeaturedChannelAnimation;
+    animation-duration: 4s;
+}
+
+@keyframes FeaturedChannelAnimation {
+    from{transform: translateY(300px);}
+    to{transform: translateY(0);}
 }
 
 
