@@ -7,6 +7,10 @@
   --off-white: #F2F2F2;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--off-white);
 }
