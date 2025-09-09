@@ -13,14 +13,18 @@ body{
 
 h1{
     color: var(--logo-black);
+    font-family: 'Roboto Slab', 'Playfair Display';
 }
 
 p{
     color: var(--charcoal-grey);
+    font-family: 'Nunito';
 }
 
 summary{
     color: var(--charcoal-grey);
+    font-family: 'Nunito';
+
 }
 
 a:hover{
