@@ -35,7 +35,7 @@ img:hover{
 #navbar {
   position: sticky;
   top: 0px;
-  border: 2px solid black;
+  border: 2px solid var(--logo-black);
   background-color: var(--forest-green);
 }
 
