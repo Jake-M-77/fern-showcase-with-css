@@ -4,11 +4,11 @@ Fern YT Showcase Fanpage
 
 Overview 🖥️
 
-This is a fan-made webpage created to showcase my HTML skills. It demonstrates the structure and styling of a small multi-page website using pure HTML with minimal CSS applied inline via the style attribute.
+This is a fan-made multi-page website created to showcase my HTML and CSS skills. It expands on a previous version of this project that was built with pure HTML and inline styles, by introducing an external stylesheet and modern CSS techniques.
 
-The page highlights the YouTube channel Fern TV and includes information about the channel, its creators, recent videos, and related content.
+The fanpage highlights the YouTube channel Fern TV and includes information about the channel, its creators, recent videos, and related content.
 
----
+----
 
 Pages 📄
 
@@ -30,7 +30,7 @@ Videos (Videos.html)
 
 Lists the 10 most recent Fern TV videos
 
-Each video entry includes a clickable title, description, and link to the video
+Each entry includes a clickable title, description, and link to the video
 
 The People Behind The Channel (ThePeopleBehindTheChannel.html)
 
@@ -46,15 +46,23 @@ States that this is a fan-made project not affiliated with Fern TV
 
 Features ✨
 
-Multi-page structure using HTML
+Multi-page structure using semantic HTML
 
-Inline CSS for styling elements without external stylesheets
+External CSS stylesheet (style.css) for clean and maintainable styling
 
-Responsive navigation menu using simple ul and li layout
+Custom CSS variables for consistent color palette management
 
-Video list with expandable descriptions using details and summary elements
+Sticky navigation bar with hover and visited link styling
 
-Creator profiles displayed with clickable logos using img and a
+Interactive icons using Font Awesome with scaling hover effects
+
+Smooth scroll behavior for a polished navigation experience
+
+Animations & transitions (logos slide-in, video section fade-in, hover scaling, etc.)
+
+Video list with expandable descriptions using details and summary
+
+Creator profiles displayed with clickable channel logos
 
 Featured channels section highlighting related content
 
@@ -64,12 +72,11 @@ Usage 🚀
 
 Clone the repository:
 
-git clone https://github.com/yourusername/fern-yt-showcase.git
-
+git clone https://github.com/Jake-M-77/fern-showcase-with-css.git
 
 Open any .html file in a web browser to view the pages.
 
-No additional setup or dependencies are required since this project uses pure HTML with inline CSS.
+No additional setup or dependencies are required—this project uses pure HTML and CSS with no frameworks.
 
 ---
 
@@ -87,7 +94,10 @@ Veritasium
 
 OverSimplified
 
+The B1M
+
+---
+
 License ⚖️
 
-This project is fan-made and intended for educational purposes to showcase HTML skills.
-No content ownership is claimed over Fern TV or the featured channels.
+This project is fan-made and intended for educational purposes to showcase HTML and CSS skills. No content ownership is claimed over Fern TV or the featured channels.
